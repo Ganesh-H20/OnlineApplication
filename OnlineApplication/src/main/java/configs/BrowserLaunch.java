@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 
-public class StarBrowser {
+public class BrowserLaunch{
   
 	public static  WebDriver driver;
 	

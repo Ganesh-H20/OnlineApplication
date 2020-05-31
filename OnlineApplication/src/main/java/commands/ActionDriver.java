@@ -3,14 +3,14 @@ package commands;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import configs.StarBrowser;
+import configs.BrowserLaunch;
 
 public class ActionDriver {
 
 	WebDriver driver;
 
 	public ActionDriver() {
-		driver = StarBrowser.driver;
+		driver = BrowserLaunch.driver;
 	}
 
 	public void navigateToApplication(String url) {

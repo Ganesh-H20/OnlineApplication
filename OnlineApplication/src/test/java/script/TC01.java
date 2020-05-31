@@ -7,10 +7,10 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 import commands.ActionDriver;
-import configs.StarBrowser;
+import configs.BrowserLaunch;
 import or.CreatePage;
 
-public class TC01 extends StarBrowser {
+public class TC01 extends BrowserLaunch {
 
 	public static ActionDriver ad;
 	public static WebElement statedropdown, countrydropDown, SecondImg, MoreBtn, Sizedrpdwn;
